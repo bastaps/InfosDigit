@@ -1,0 +1,8 @@
+title: DIGITAL.DZ
+baseurl: "/InfosDigit" # <--- REMPLACE PAR LE NOM EXACT (ex: /digital-dz)
+url: "https://bastaps.github.io" # <--- METS TON PSEUDO GITHUB
+
+markdown: kramdown
+future: true
+include: [presse, img]
+encoding: "utf-8"
