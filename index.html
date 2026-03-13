@@ -1,0 +1,66 @@
+---
+---
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIGITAL.DZ | Actu Tech Algérie</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #ffffff; color: #1a1a1a; }
+        .nav-link { font-weight: 700; color: #666; font-size: 13px; position: relative; }
+        .nav-link:hover, .nav-link.active { color: #2563eb; }
+        .nav-link.active::after { content: ''; position: absolute; bottom: -5px; left: 0; width: 100%; height: 2px; background: #2563eb; }
+        .article-card { border-bottom: 1px solid #f3f4f6; padding-bottom: 2rem; margin-bottom: 2rem; }
+    </style>
+</head>
+<body>
+    <div class="bg-gray-900 text-white py-2 text-[10px] font-bold uppercase tracking-widest px-4">
+        <div class="container mx-auto flex justify-between" id="clock">Chargement...</div>
+    </div>
+    <header class="py-12 border-b border-gray-50 text-center">
+        <a href="{{ site.baseurl }}/" class="text-5xl font-extrabold tracking-tighter italic">DIGITAL<span class="text-blue-600">.DZ</span></a>
+    </header>
+    <nav class="sticky top-0 bg-white/95 backdrop-blur-md z-50 border-b border-gray-100 h-14 flex items-center">
+        <div class="container mx-auto px-4 flex justify-center space-x-10">
+            <button onclick="filter('all')" class="nav-link active">À LA UNE</button>
+            <button onclick="filter('Tech')" class="nav-link">TECH</button>
+            <button onclick="filter('National')" class="nav-link">ALGÉRIE</button>
+        </div>
+    </nav>
+    <main class="container mx-auto px-4 max-w-5xl py-12">
+        <div id="grid">
+            {% assign news = site.pages | where_exp: "item", "item.path contains 'presse/'" | sort: 'date' | reverse %}
+            {% for article in news %}
+            <article class="article-card item" data-cat="{{ article.category }}">
+                <a href="{{ article.url | relative_url }}" class="flex flex-col md:flex-row gap-8 group">
+                    <img src="{{ article.image | relative_url }}" class="w-full md:w-5/12 h-48 object-cover rounded-xl group-hover:opacity-80 transition">
+                    <div class="w-full md:w-7/12">
+                        <span class="text-blue-600 font-bold text-[10px] uppercase tracking-widest">{{ article.category }}</span>
+                        <h2 class="text-2xl font-bold mt-2 mb-3 leading-tight group-hover:text-blue-600">{{ article.title }}</h2>
+                        <p class="text-gray-500 text-sm line-clamp-2 mb-4">{{ article.description }}</p>
+                        <span class="text-[10px] font-bold text-gray-400 uppercase">{{ article.date | date: "%d/%m/%Y" }}</span>
+                    </div>
+                </a>
+            </article>
+            {% endfor %}
+        </div>
+    </main>
+    <script>
+        function showTime(){
+            var date = new Date();
+            document.getElementById("clock").innerText = date.toLocaleDateString('fr-FR', {weekday: 'long', day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit'});
+            setTimeout(showTime, 1000);
+        }
+        showTime();
+        function filter(cat) {
+            document.querySelectorAll('.item').forEach(el => {
+                el.style.display = (cat === 'all' || el.getAttribute('data-cat') === cat) ? "block" : "none";
+            });
+        }
+    </script>
+</body>
+</html>
