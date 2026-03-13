@@ -17,51 +17,44 @@ Dans un contexte de tensions géopolitiques mondiales, l’Afrique fait face à 
 
 Le programme s'articule autour d'une approche holistique nommée « Terre-Air-Mer-Espace », visant une interopérabilité totale :
 
-*   **PILIER 01 - AIR :** Développement de satellites africains de communication et systèmes de connectivité autonomes sous l'égide de l'Agence spatiale africaine.
-*   **PILIER 02 - MER :** Sécurisation et résilience des câbles sous-marins, transformation des ports en zones intelligentes et connectées.
-*   **PILIER 03 - TERRE :** Déploiement de corridors panafricains de fibre optique et création de centres de données (Data Centers) régionaux gérés par l'IA.
-*   **PILIER 04 - ESPACE :** Convergence des modèles de gouvernance pour garantir une souveraineté numérique continentale durable.
+*   **PILIER 01 - AIR :** Développement de satellites africains de communication.
+*   **PILIER 02 - MER :** Sécurisation et résilience des câbles sous-marins.
+*   **PILIER 03 - TERRE :** Déploiement de corridors panafricains de fibre optique.
+*   **PILIER 04 - ESPACE :** Convergence des modèles de gouvernance.
 
 ## Un rassemblement de géants à Alger
 
 L'ampleur de l'événement est sans précédent pour la région. Le CIC d'Alger accueillera un collège de décideurs impressionnant :
 
-<!-- Bloc de statistiques optimisé pour le style "Journal" -->
-<div class="my-12 border-y-2 border-black py-8">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+<div class="my-12 border-y border-gray-100 py-10 bg-gray-50 rounded-xl">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
         <div>
-            <div class="text-4xl font-black tsa-red">5 000+</div>
-            <div class="text-xs font-bold uppercase tracking-widest mt-2">Participants</div>
+            <div class="text-4xl font-extrabold text-blue-600">5 000+</div>
+            <div class="text-[10px] font-bold uppercase tracking-widest mt-2 text-gray-400">Participants</div>
         </div>
         <div>
-            <div class="text-4xl font-black">50</div>
-            <div class="text-xs font-bold uppercase tracking-widest mt-2">Ministres Africains</div>
+            <div class="text-4xl font-extrabold text-gray-900">50</div>
+            <div class="text-[10px] font-bold uppercase tracking-widest mt-2 text-gray-400">Ministres Africains</div>
         </div>
         <div>
-            <div class="text-4xl font-black">45</div>
-            <div class="text-xs font-bold uppercase tracking-widest mt-2">Pays Représentés</div>
+            <div class="text-4xl font-extrabold text-gray-900">45</div>
+            <div class="text-[10px] font-bold uppercase tracking-widest mt-2 text-gray-400">Pays Représentés</div>
         </div>
     </div>
 </div>
 
-Parmi les intervenants de premier plan, nous retrouverons **M. Sid Ali Zerrouki**, Ministre de la Poste et des Télécommunications (Algérie), ainsi que des leaders influents comme **Lacina Koné** (Smart Africa) et **Hassanein Hiridjee** (Groupe AXIAN).
+Parmi les intervenants de premier plan, nous retrouverons **M. Sid Ali Zerrouki**, Ministre de la Poste et des Télécommunications (Algérie), ainsi que des leaders influents comme **Lacina Koné** (Smart Africa).
 
 ## Trois jours pour transformer le continent
 
 Le sommet propose un parcours immersif à travers l'écosystème des télécoms :
 
-1.  **JOUR 1 (TERRE) :** Focus sur le réseau dorsal, la fibre optique et l'harmonisation des politiques réglementaires continentales.
-2.  **JOUR 2 (AIR / ESPACE) :** Déploiement de la 5G, réseaux de nouvelle génération et vitrine de l'innovation africaine.
-3.  **JOUR 3 (MER) :** Câbles sous-marins, villes intelligentes et inclusion de la jeunesse dans l'économie numérique. 
+1.  **JOUR 1 (TERRE) :** Focus sur le réseau dorsal et la fibre optique.
+2.  **JOUR 2 (AIR / ESPACE) :** Déploiement de la 5G et réseaux de nouvelle génération.
+3.  **JOUR 3 (MER) :** Câbles sous-marins et villes intelligentes.
 
 La clôture du sommet sera marquée par l'établissement du **Plan d'Action Continental**, une feuille de route concrète pour l'indépendance technologique de l'Afrique.
 
 ---
-
-### Informations Clés
-*   **Événement :** Global Africa Tech 2026
-*   **Lieu :** CIC Alger, Algérie
-*   **Partenaires Majeurs :** ITU, Smart Africa, Huawei, Nokia, ZTE, Ooredoo.
-*   **Site Officiel :** [globalafricatech.com](https://globalafricatech.com)
 
 🚀 *Suivez **DIGITAL.DZ** pour une couverture exclusive en direct du CIC d'Alger dès l'ouverture du sommet !*
